@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color:#b48484; 
+   
+    font-family: 'Fira Sans', sans-serif;
+    height: 150vh;
+    transition: transform 0.3s ease-in;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style:none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+  .ham{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .cross{
+    margin-left: 185px ;
+    margin-top: 10px;
+
+  }
